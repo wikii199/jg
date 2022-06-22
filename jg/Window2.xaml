@@ -1,0 +1,23 @@
+﻿<Window x:Class="jg.Window2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:jg"
+        mc:Ignorable="d"
+        Title="Window2" Height="450" Width="800">
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="Black"/>
+                <GradientStop Color="#FFCC0E0E" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <TextBlock x:Name="saldo" HorizontalAlignment="Left" Text="" Margin="35,79,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="60" Width="290" ContextMenuClosing="saldo"/>
+        <TextBlock x:Name="kwttxt" HorizontalAlignment="Left" Margin="65,324,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="70" Width="290" ContextMenuClosing="kwttxt"/>
+        <TextBlock x:Name="wintxt" HorizontalAlignment="Center" Margin="0,181,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="87" Width="220" ContextMenuClosing="wintxt"/>
+        <Button Content="Button" Margin="425,324,45,40"/>
+        <Button x:Name="grabbut" Content="GRAJ &#xD;&#xA;" Margin="425,324,45,40" Click="grabbutButton_Click" FontSize="18" FontWeight="Bold"/>
+
+    </Grid>
+</Window>

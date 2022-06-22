@@ -1,0 +1,21 @@
+﻿<Window x:Class="jg.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:jg"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/download.jpg"/>
+        </Grid.Background>
+        <Button x:Name="btnrej" Content="REJESTRACJA " Margin="525,384,25,10" Click="btnrejButton_Click"/>
+        <Label Content="IMIE I NAZWISKO :" Margin="145,129,465,270" Foreground="#FFF0F0F0" FontSize="20" FontWeight="Bold"/>
+        <Label Content="HASLO :" Margin="235,182,460,217" Foreground="#FFF0F0F0" FontSize="20" FontWeight="Bold"/>
+        <TextBox x:Name="txtlog" Margin="340,129,275,0" Height="35" TextWrapping="Wrap" VerticalAlignment="Top" TextChanged="txtPesel_TextChanged" ContextMenuClosing="txtlog"/>
+        <PasswordBox x:Name="txthas"  Margin="340,182,275,0" Height="35" VerticalAlignment="Top" ContextMenuClosing="txthas" />
+        <Label Content="GUY GAME FROM CASYNO" Margin="221,49,195,335" Foreground="#FFF6ECEC" FontSize="24"/>
+        <Button x:Name="btnlog" Content="LOGIN" Margin="340,259,275,135" Click="btnlogButton_Click"/>
+    </Grid>
+</Window>
