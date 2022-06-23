@@ -23,14 +23,25 @@ namespace jg
         {
             InitializeComponent();
         }
-
+        
         private void grabbutButton_Click(object sender, RoutedEventArgs e)
         {
-            int cashAmount = int.Parse(kwttxt.Text);
-            guy(cashAmount);
+            int cashAmount = int.Parse(wintxt.Text);
+            if (cashAmount > 0)
+            {
+                MessageBox.Show("Gratulacje, wygrałeś " + cashAmount + " zł");
+            }
            
+
+
         }
-        
+
+      
+
+        private void wintxt1(object sender, ContextMenuEventArgs e)
+        {
+
+        }
     }
     
 }

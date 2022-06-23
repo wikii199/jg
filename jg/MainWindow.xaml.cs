@@ -61,7 +61,7 @@ namespace jg
                 if (count == 1)
                 {
 
-                    string connectionString = @"Data Source=LAPTOP-VHLI3BSD\SQLEXPRESS;Initial Catalog=LocalDB;Integrated Security=True";
+                    string connectionString = @"Data Source=DESKTOP-853AFB5\annaw;Initial Catalog=kasyn;Integrated Security=True";
                     using (DatabaseContext db = new DatabaseContext(connectionString))
                     {
                         Window2 mw = new Window2();

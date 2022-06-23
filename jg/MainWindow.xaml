@@ -11,11 +11,11 @@
             <ImageBrush ImageSource="/download.jpg"/>
         </Grid.Background>
         <Button x:Name="btnrej" Content="REJESTRACJA " Margin="525,384,25,10" Click="btnrejButton_Click"/>
-        <Label Content="IMIE I NAZWISKO :" Margin="145,129,465,270" Foreground="#FFF0F0F0" FontSize="20" FontWeight="Bold"/>
-        <Label Content="HASLO :" Margin="235,182,460,217" Foreground="#FFF0F0F0" FontSize="20" FontWeight="Bold"/>
-        <TextBox x:Name="txtlog" Margin="340,129,275,0" Height="35" TextWrapping="Wrap" VerticalAlignment="Top" TextChanged="txtPesel_TextChanged" ContextMenuClosing="txtlog"/>
-        <PasswordBox x:Name="txthas"  Margin="340,182,275,0" Height="35" VerticalAlignment="Top" ContextMenuClosing="txthas" />
-        <Label Content="GUY GAME FROM CASYNO" Margin="221,49,195,335" Foreground="#FFF6ECEC" FontSize="24"/>
+        <Label Content="IMIE I NAZWISKO :" Margin="125,120,485,279" Foreground="#FFF0F0F0" FontSize="20" FontWeight="Bold"/>
+        <Label Content="HASLO :" Margin="210,182,485,217" Foreground="#FFF0F0F0" FontSize="20" FontWeight="Bold"/>
+        <TextBox x:Name="txtlog" Margin="340,129,275,0" Height="35" TextWrapping="Wrap" VerticalAlignment="Top" TextChanged="txtPesel_TextChanged" />
+        <PasswordBox x:Name="txthas"  Margin="340,182,275,0" Height="35" VerticalAlignment="Top"  />
+        <Label Content="GUY GAME FROM CASYNO" Margin="210,34,206,350" Foreground="#FFF6ECEC" FontSize="24"/>
         <Button x:Name="btnlog" Content="LOGIN" Margin="340,259,275,135" Click="btnlogButton_Click"/>
     </Grid>
 </Window>

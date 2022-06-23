@@ -48,4 +48,8 @@ namespace orkdis
         public int UserID { get; set; }
         public int Saldo { get; set; }
     }
+
+  
+
+
 }

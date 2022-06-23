@@ -13,11 +13,11 @@
                 <GradientStop Color="#FFCC0E0E" Offset="1"/>
             </LinearGradientBrush>
         </Grid.Background>
-        <TextBlock x:Name="saldo" HorizontalAlignment="Left" Text="" Margin="35,79,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="60" Width="290" ContextMenuClosing="saldo"/>
-        <TextBlock x:Name="kwttxt" HorizontalAlignment="Left" Margin="65,324,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="70" Width="290" ContextMenuClosing="kwttxt"/>
-        <TextBlock x:Name="wintxt" HorizontalAlignment="Center" Margin="0,181,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="87" Width="220" ContextMenuClosing="wintxt"/>
+        <TextBlock x:Name="saldo" HorizontalAlignment="Left" Text="" Margin="35,79,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="60" Width="290"/>
+        <TextBlock x:Name="wintxt" HorizontalAlignment="Left" Margin="70,307,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="87" Width="295" ContextMenuClosing="wintxt1"/>
         <Button Content="Button" Margin="425,324,45,40"/>
         <Button x:Name="grabbut" Content="GRAJ &#xD;&#xA;" Margin="425,324,45,40" Click="grabbutButton_Click" FontSize="18" FontWeight="Bold"/>
+        <TextBlock x:Name="wintxt_Copy" HorizontalAlignment="Left" Margin="218,144,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="87" Width="294" ContextMenuClosing="wintxt1"/>
 
     </Grid>
 </Window>

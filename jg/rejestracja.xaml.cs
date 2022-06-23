@@ -30,7 +30,7 @@ namespace jg
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            string connectionString = @"Data Source=LAPTOP-VHLI3BSD\SQLEXPRESS;Initial Catalog=LocalDB;Integrated Security=True";
+            string connectionString = @"Data Source=DESKTOP-853AFB5\annaw;Initial Catalog=kasyn;Integrated Security=True";
             using (DatabaseContext db = new DatabaseContext(connectionString))
             {
                 bool isCorrect = false;
